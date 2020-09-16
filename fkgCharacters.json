@@ -1,0 +1,50 @@
+{
+    "elements" : {
+        "nodes" : [
+            {"data":{"id":"40001","name":"アブラナ","label":"Person","parent":"90003"},"position":{"x":-218.45716096954703,"y":-118.51989674071231},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"20001","title":"イチゴ","label":"Movie","parent":"90003"},"position":{"x":-21.804315793739043,"y":15.418460804261944},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"60001","title":"ウメ","label":"Movie"},"position":{"x":-7.843398682840981,"y":290.71412003693257},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"60002","title":"サクラ","label":"Movie"},"position":{"x":366.1617982152996,"y":-29.245490653384664},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"50002","title":"カンヒザクラ","label":"Movie"},"position":{"x":542.2210659429182,"y":357.26805606929264},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"50003","title":"アイビー","label":"Movie"},"position":{"x":665.7090755761778,"y":47.02359008943734},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"50001","title":"バラ","label":"Movie","parent":"90001"},"position":{"x":267.9988928681009,"y":626.1996894501626},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"90001","name":"＜ブロッサムヒル貴族＞","label":"Group"},"position":{"x":427.6191212178353,"y":801.6600931323139},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"90002","name":"＜従姉妹＞","label":"Group"},"position":{"x":-353.55320790667076,"y":285.3019523212281},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"90003","name":"＜騎士団学校の同期＞","label":"Group"},"position":{"x":-120.13073838164304,"y":-51.550717968225186},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"40002","name":"セントポーリア","label":"Person","parent":"90001"},"position":{"x":258.25109266353707,"y":969.8096466610419},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"30001","name":"コチョウラン","label":"Person","parent":"90001"},"position":{"x":592.1132496698515,"y":986.8682970190291},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"20002","name":"マーガレット","label":"Person","parent":"90001"},"position":{"x":594.5501997209926,"y":787.0383928254679},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"20003","name":"アマリリス","label":"Person","parent":"90001"},"position":{"x":596.9871497721335,"y":616.4518892455986},"group":"nodes","removed":false,"selected":true,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"50004","name":"クランベリー","label":"Person","parent":"90001"},"position":{"x":264.5441544009713,"y":791.3371953938774},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"40003","title":"ナナカマド","label":"Movie"},"position":{"x":-385.5571966377477,"y":574.3764622437142},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"60003","title":"ハナモモ","label":"Movie","parent":"90002"},"position":{"x":-430.68150743304574,"y":218.36040933607245},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"50005","title":"モモ","label":"Movie","parent":"90002"},"position":{"x":-276.42490838029573,"y":352.2434953063837},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""}
+                    ],
+        "edges" : [
+            {"data" : {"source" : "40001", "target" : "20001", "relationship" : "友人", "isbooth" : "true"}},
+            {"data" : {"source" : "20001", "target" : "60001", "relationship" : "憧れの先輩"}},
+            {"data" : {"source" : "20001", "target" : "60002", "relationship" : "憧れの先輩"}},
+            {"data" : {"source" : "60001", "target" : "60002", "relationship" : "親友にしてライバル", "isbooth" : "true"}},
+            {"data" : {"source" : "60001", "target" : "20001", "relationship" : "慕ってくれる後輩"}},
+            {"data" : {"source" : "60001", "target" : "50001", "relationship" : "知り合い"}},
+            {"data" : {"source" : "60001", "target" : "50002", "relationship" : "弟子"}},
+            {"data" : {"source" : "60002", "target" : "20001", "relationship" : "慕ってくれる後輩"}},
+            {"data" : {"source" : "60002", "target" : "50003", "relationship" : "慕ってくれる後輩"}},
+            {"data" : {"source" : "60002", "target" : "50001", "relationship" : "知り合い"}},
+            {"data" : {"source" : "50003", "target" : "60002", "relationship" : "憧れ"}},
+            {"data" : {"source" : "50003", "target" : "50002", "relationship" : "後輩"}},
+            {"data" : {"source" : "50001", "target" : "60001", "relationship" : "ライバル視"}},
+            {"data" : {"source" : "50001", "target" : "60002", "relationship" : "ライバル視"}},
+            {"data" : {"source" : "50001", "target" : "50005", "relationship" : "縁(面識無し)", "isbooth" : "true"}},
+    
+            {"data" : {"source" : "50005", "target" : "60003", "relationship" : "妹"}},
+            {"data" : {"source" : "50005", "target" : "40003", "relationship" : "慕われている"}},
+            {"data" : {"source" : "60003", "target" : "50005", "relationship" : "姉"}},
+            {"data" : {"source" : "40003", "target" : "50005", "relationship" : "憧れ"}},
+    
+            {"data" : {"source" : "20002", "target" : "30001", "relationship" : "メイド"}},
+            {"data" : {"source" : "30001", "target" : "20002", "relationship" : "主人"}}
+            
+        ]
+    }
+}
