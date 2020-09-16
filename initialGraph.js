@@ -72,7 +72,7 @@ $(function(){
           css: {'background-image': './img/50004.png' }
         },
         { selector: 'node[id = "50005"]',
-          css: {'background-image': './img/50005.JPG' }
+          css: {'background-image': './img/50005.jpg' }
         },
         { selector: 'node[id = "40002"]',
           css: {'background-image': './img/40002.jpg' }
