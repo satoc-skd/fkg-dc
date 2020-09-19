@@ -1,0 +1,112 @@
+/* セレクターで拾いた内容要素が 指定したCSSを適用する
+ノードの中で、label属性は「Peson」のノードが青色で表示し、文字はname属性を表示する */
+node[label = "Person"] {
+    background-color: #6FB1FC;
+    content: data(name);
+}
+
+/* ノードの中で、label属性は「Movie」のノードがオレンジ色で表示し、文字はtitle属性を表示する */
+node[label = "Movie"] {
+    background-color: #F5A45D;
+    content: data(title);
+}
+
+/* ノードの中で、label属性は「Movie」のノードがオレンジ色で表示し、文字はtitle属性を表示する */
+node[label = "Group"] {
+    background-color: #7F7F7F;
+    content: data(name);
+}
+    
+
+/* エッジ全体で、文字はrelationship属性を表示する、終了点での矢印は三角形にする */
+edge {
+    content: data(relationship);
+    target-arrow-shape: triangle;
+    line-color: gray;
+    target-arrow-color: gray;
+    control-point-step-size: 200;
+}
+    
+edge[isbooth = "true"] {
+    source-arrow-color: gray;
+    source-arrow-shape: triangle;
+}
+    
+node[id = "60003"] {
+    background-image: img/60003.jpg;
+}
+    
+node[id = "50001"] {
+    background-image: img/50001.jpg;
+}
+    
+
+node[id = "20001"] {
+    background-image: img/20001.png;
+}
+    
+node[id = "40001"] {
+    background-image: img/40001.jpg;
+}
+    
+
+node[id = "60001"] {
+    background-image: img/60001.jpg;
+}
+
+
+node[id = "60002"] {
+    background-image: img/60002.png;
+}
+
+
+node[id = "50002"] {
+    background-image: img/50002.jpg;
+}
+
+
+node[id = "50003"] {
+    background-image: img/50003.png;
+}
+
+
+node[id = "50004"] {
+    background-image: img/50004.png;
+}
+
+
+node[id = "50005"] {
+    background-image: img/50005.jpg;
+}
+
+
+node[id = "40002"] {
+    background-image: img/40002.jpg;
+}
+
+
+node[id = "40003"] {
+    background-image: img/40003.jpg;
+}
+
+
+node[id = "20002"] {
+    background-image: img/20002.png;
+}
+
+
+node[id = "20003"] {
+    background-image: img/20003.png;
+}
+
+
+node[id = "30001"] {
+    background-image: img/30001.jpg;
+}
+
+
+node[label ="Person"] {
+    height: 110px;
+    width: 110px;
+    shape: rectangle;
+}
