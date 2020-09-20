@@ -1,9 +1,11 @@
 # fkg-dc
-こんな世の中だから空中遊泳（挨拶）
-
 花騎士（フラワーナイト）達の相関関係をアイコン付きグラフで表示します。
 
 https://satoc-skd.github.io/fkg-dc/
+
+## 使用しているライブラリ
+- jQuery(https://github.com/jquery/jquery)
+- Cytoscape.js(https://github.com/cytoscape/cytoscape.js)
 
 # スクショ
 ![image](https://user-images.githubusercontent.com/60491001/93353723-34de4500-f877-11ea-883f-4b0b11dd92ae.png)
