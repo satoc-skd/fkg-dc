@@ -33,95 +33,95 @@ edge[isbooth = "true"] {
 }
     
 node[id = "n160003"] {
-    background-image: img/n160003.jpg;
+    background-image: url(img/n160003.jpg);
 }
     
 node[id = "n150001"] {
-    background-image: img/n150001.jpg;
+    background-image: url(img/n150001.jpg);
 }
     
 
 node[id = "n120001"] {
-    background-image: img/n120001.png;
+    background-image: url(img/n120001.png);
 }
     
 node[id = "n140001"] {
-    background-image: img/n140001.jpg;
+    background-image: url(img/n140001.jpg);
 }
     
 
 node[id = "n160001"] {
-    background-image: img/n160001.jpg;
+    background-image: url(img/n160001.jpg);
 }
 
 
 node[id = "n160002"] {
-    background-image: img/n160002.png;
+    background-image: url(img/n160002.png);
 }
 
 
 node[id = "n150002"] {
-    background-image: img/n150002.jpg;
+    background-image: url(img/n150002.jpg);
 }
 
 
 node[id = "n150003"] {
-    background-image: img/n150003.png;
+    background-image: url(img/n150003.png);
 }
 
 
 node[id = "n150004"] {
-    background-image: img/n150004.png;
+    background-image: url(img/n150004.png);
 }
 
 
 node[id = "n150005"] {
-    background-image: img/n150005.jpg;
+    background-image: url(img/n150005.jpg);
 }
 
 
 node[id = "n140002"] {
-    background-image: img/n140002.jpg;
+    background-image: url(img/n140002.jpg);
 }
 
 
 node[id = "n140003"] {
-    background-image: img/n140003.jpg;
+    background-image: url(img/n140003.jpg);
 }
 
 
 node[id = "n120002"] {
-    background-image: img/n120002.png;
+    background-image: url(img/n120002.png);
 }
 
 
 node[id = "n120003"] {
-    background-image: img/n120003.png;
+    background-image: url(img/n120003.png);
 }
 
 
 node[id = "n130001"] {
-    background-image: img/n130001.jpg;
+    background-image: url(img/n130001.jpg);
 }
 
 node[id = "n150006"] {
-    background-image: img/n150006.jpg;
+    background-image: url(img/n150006.jpg);
 }
 
 node[id = "n150007"] {
-    background-image: img/n150007.jpg;
+    background-image: url(img/n150007.jpg);
 }
 
 node[id = "n160004"] {
-    background-image: img/n160004.jpg;
+    background-image: url(img/n160004.jpg);
 }
 
 node[id = "n160005"] {
-    background-image: img/n160005.jpg;
+    background-image: url(img/n160005.jpg);
 }
 
 node[id = "n160006"] {
-    background-image: img/n160006.jpg;
+    background-image: url(img/n160006.jpg);
 }
 
 node[label ="Person"] {
