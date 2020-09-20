@@ -43,6 +43,15 @@ $(function(){
         style: expStyle,
         layout: layout2,
       });
+
+
+      // タップしたら、コンソールに名前と座標を出力する
+      cy.on('tap', 'node', function(evt){
+        console.log('Click name is ' + evt.cyTarget.data().name + '->' + JSON.stringify(evt.cyTarget.position()));
+      });
+
+
+
   }
 
 
