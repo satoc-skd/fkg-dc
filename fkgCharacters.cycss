@@ -104,6 +104,25 @@ node[id = "n130001"] {
     background-image: img/n130001.jpg;
 }
 
+node[id = "n150006"] {
+    background-image: img/n150006.jpg;
+}
+
+node[id = "n150007"] {
+    background-image: img/n150007.jpg;
+}
+
+node[id = "n160004"] {
+    background-image: img/n160004.jpg;
+}
+
+node[id = "n160005"] {
+    background-image: img/n160005.jpg;
+}
+
+node[id = "n160006"] {
+    background-image: img/n160006.jpg;
+}
 
 node[label ="Person"] {
     height: 110px;
