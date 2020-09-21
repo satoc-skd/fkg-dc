@@ -112,6 +112,54 @@ node[id = "n150007"] {
     background-image: url(img/n150007.jpg);
 }
 
+node[id = "n150008"] {
+    background-image: url(img/n150008.jpg);
+}
+
+node[id = "n150009"] {
+    background-image: url(img/n150009.jpg);
+}
+
+node[id = "n150010"] {
+    background-image: url(img/n150010.jpg);
+}
+
+node[id = "n150011"] {
+    background-image: url(img/n150011.jpg);
+}
+
+node[id = "n150012"] {
+    background-image: url(img/n150012.jpg);
+}
+
+node[id = "n150013"] {
+    background-image: url(img/n150013.png);
+}
+
+node[id = "n150014"] {
+    background-image: url(img/n150014.png);
+}
+
+node[id = "n150015"] {
+    background-image: url(img/n150015.jpg);
+}
+
+node[id = "n150016"] {
+    background-image: url(img/n150016.jpg);
+}
+
+node[id = "n150017"] {
+    background-image: url(img/n150017.jpg);
+}
+
+node[id = "n150018"] {
+    background-image: url(img/n150018.jpg);
+}
+
+node[id = "n150019"] {
+    background-image: url(img/n150019.jpg);
+}
+
 node[id = "n160004"] {
     background-image: url(img/n160004.jpg);
 }
@@ -122,6 +170,14 @@ node[id = "n160005"] {
 
 node[id = "n160006"] {
     background-image: url(img/n160006.jpg);
+}
+
+node[id = "n160007"] {
+    background-image: url(img/n160007.jpg);
+}
+
+node[id = "n160008"] {
+    background-image: url(img/n160008.jpg);
 }
 
 node[label ="Person"] {

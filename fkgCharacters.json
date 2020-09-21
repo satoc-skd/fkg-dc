@@ -24,7 +24,21 @@
             {"data":{"id":"n160004","name":"カトレア","label":"Person","parent":"n210004"},"position":{"x":-316.44572625814055,"y":952.0538279598835},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
             {"data":{"id":"n160005","name":"ブラックバッカラ","label":"Person","parent":"n210004"},"position":{"x":-473.3085412272259,"y":1136.5410782313552},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
             {"data":{"id":"n160006","name":"デンドロビウム","label":"Person","parent":"n210004"},"position":{"x":-276.6734934253843,"y":1303.3902202413515},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
-            {"data":{"id":"n210004","name":"＜お屋敷組＞","label":"Group"},"position":{"x":-120.13073838164304,"y":-51.550717968225186},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""}
+            {"data":{"id":"n210004","name":"＜お屋敷組＞","label":"Group"},"position":{"x":-120.13073838164304,"y":-51.550717968225186},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n160007","name":"イオノシジウム","label":"Person"},"position":{"x":265.7652910874243,"y":1196.2289776945447},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n160008","name":"バンテイシ","label":"Person"},"position":{"x":123.01658041949258,"y":1948.5745300067383},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150008","name":"エピデンドラム","label":"Person"},"position":{"x":802.1000263790156,"y":1210.8745388775965},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150009","name":"カタバミ","label":"Person"},"position":{"x":515.7117265222304,"y":1587.054313101696},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150010","name":"グリーンベル","label":"Person"},"position":{"x":52.17470080677163,"y":1587.0543131016962},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150011","name":"クリスマスベゴニア","label":"Person"},"position":{"x":1070.1383651230733,"y":1509.79814214912},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150012","name":"ペンタス","label":"Person"},"position":{"x":1048.2976593969368,"y":890.1848003126356},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150013","name":"ヤツデ","label":"Person"},"position":{"x":1239.190136979793,"y":1250.7225214984555},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150014","name":"サザンクロス","label":"Person"},"position":{"x":1433.696816664609,"y":896.2932551727771},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150015","name":"ワタチョロギ","label":"Person"},"position":{"x":1290.5456763701295,"y":1812.0061049930216},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150016","name":"スキミア","label":"Person"},"position":{"x":1492.7750650401092,"y":1514.3426227933887},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150017","name":"オキザリス","label":"Person"},"position":{"x":874.7256974194974,"y":1598.4155147123681},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150018","name":"ヒメリュウキンカ","label":"Person"},"position":{"x":439.67413050470884,"y":2321.074448219993},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""},
+            {"data":{"id":"n150019","name":"ジャーマンアイリス","label":"Person"},"position":{"x":818.3221189926808,"y":1964.945988843424},"group":"nodes","removed":false,"selected":false,"selectable":true,"locked":false,"grabbed":false,"grabbable":true,"classes":""}
                     ],
         "edges" : [
             {"data" : {"source" : "n140001", "target" : "n120001", "relationship" : "友人", "isbooth" : "true"}},
@@ -51,11 +65,68 @@
             {"data" : {"source" : "n120002", "target" : "n130001", "relationship" : "メイド"}},
             {"data" : {"source" : "n130001", "target" : "n120002", "relationship" : "主人"}},
 
+
+            {"data" : {"source" : "n160007", "target" : "n150008", "relationship" : "昔馴染"}},
+            {"data" : {"source" : "n160007", "target" : "n150009", "relationship" : "友人"}},
+            {"data" : {"source" : "n160007", "target" : "n150010", "relationship" : "友人"}},
+            {"data" : {"source" : "n160007", "target" : "n150011", "relationship" : "慕われている"}},
+
+            {"data" : {"source" : "n150008", "target" : "n160007", "relationship" : "昔馴染"}},
+            {"data" : {"source" : "n150008", "target" : "n150012", "relationship" : "友人"}},
+            {"data" : {"source" : "n150008", "target" : "n150013", "relationship" : "友人"}},
+
+            {"data" : {"source" : "n150012", "target" : "n150014", "relationship" : "憧れ"}},
+            {"data" : {"source" : "n150012", "target" : "n150008", "relationship" : "友人"}},
+            {"data" : {"source" : "n150012", "target" : "n150013", "relationship" : "先輩"}},
+
+            {"data" : {"source" : "n150013", "target" : "n150012", "relationship" : "後輩"}},
+            {"data" : {"source" : "n150013", "target" : "n150008", "relationship" : "友人"}},
+
+            {"data" : {"source" : "n150014", "target" : "n150012", "relationship" : "慕われている"}},
+
+            {"data" : {"source" : "n150011", "target" : "n160007", "relationship" : "サンタさん"}},
+            {"data" : {"source" : "n150011", "target" : "n150015", "relationship" : "親友"}},
+            {"data" : {"source" : "n150011", "target" : "n150016", "relationship" : "友達"}},
+
+            {"data" : {"source" : "n150015", "target" : "n150011", "relationship" : "親友"}},
+            {"data" : {"source" : "n150015", "target" : "n150016", "relationship" : "モフられ"}},
+
+            {"data" : {"source" : "n150016", "target" : "n150015", "relationship" : "モフモフ"}},
+            {"data" : {"source" : "n150016", "target" : "n150011", "relationship" : "友達"}},
+
+            {"data" : {"source" : "n150010", "target" : "n160007", "relationship" : "友人"}},
+            {"data" : {"source" : "n150010", "target" : "n150009", "relationship" : "友人"}},
+            
+            {"data" : {"source" : "n150017", "target" : "n150009", "relationship" : "姉"}},
+
+            {"data" : {"source" : "n150009", "target" : "n150017", "relationship" : "妹"}},
+            {"data" : {"source" : "n150009", "target" : "n160007", "relationship" : "友人"}},
+            {"data" : {"source" : "n150009", "target" : "n150010", "relationship" : "友人"}},
+            {"data" : {"source" : "n150009", "target" : "n160008", "relationship" : "後輩"}},
+            {"data" : {"source" : "n150009", "target" : "n150018", "relationship" : "友達"}},
+            {"data" : {"source" : "n150009", "target" : "n150019", "relationship" : "友達"}},
+            
+            {"data" : {"source" : "n160008", "target" : "n150009", "relationship" : "先輩"}},
+            {"data" : {"source" : "n160008", "target" : "n150018", "relationship" : "幼馴染"}},
+            {"data" : {"source" : "n160008", "target" : "n150019", "relationship" : "友達"}},
+            
+            {"data" : {"source" : "n150018", "target" : "n150009", "relationship" : "先輩"}},
+            {"data" : {"source" : "n150018", "target" : "n160008", "relationship" : "憧れ"}},
+            {"data" : {"source" : "n150018", "target" : "n150019", "relationship" : "先輩・精神面の師匠"}},
+            
+            {"data" : {"source" : "n150019", "target" : "n150018", "relationship" : "弟子"}},
+            {"data" : {"source" : "n150019", "target" : "n160008", "relationship" : "友達"}},
+            {"data" : {"source" : "n150019", "target" : "n150009", "relationship" : "友達"}},
+
+
+
             {"data" : {"source" : "n150007", "target" : "n160006", "relationship" : "師匠"}},
             {"data" : {"source" : "n160006", "target" : "n150007", "relationship" : "弟子"}},
             {"data" : {"source" : "n150007", "target" : "n150006", "relationship" : "友達"}},
             {"data" : {"source" : "n150006", "target" : "n150007", "relationship" : "友達"}},
             {"data" : {"source" : "n150006", "target" : "n160004", "relationship" : "使用人兼遊び友達"}},
+            {"data" : {"source" : "n150006", "target" : "n160007", "relationship" : "従姉妹"}},
+            {"data" : {"source" : "n160007", "target" : "n150006", "relationship" : "従姉妹"}},
             {"data" : {"source" : "n150007", "target" : "n160004", "relationship" : "使用人"}},
             {"data" : {"source" : "n160006", "target" : "n160004", "relationship" : "元教育係"}},
             {"data" : {"source" : "n160005", "target" : "n160004", "relationship" : "元世話係"}}
