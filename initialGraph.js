@@ -29,7 +29,8 @@ $(function(){
           //グリッドレイアウトを適用する
           name : 'preset',
 
-          fit: 'true,'
+          fit: 'true,',
+          pan: {x: 80, y: 40},
       }
 
       var expJson = then[0];
