@@ -13,13 +13,13 @@ body, div, html {
 .header-title {
   font-size: xx-large;
   float: left;
-  padding: 20px 40px;
+  padding: 20px 5px 20px 40px;
 }
 
 .header-list {
   font-size: medium;
   float: right;
-  padding: 28px;
+  padding: 28px 20px 28px 5px;
 }
 
 li {
