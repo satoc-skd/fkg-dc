@@ -20,14 +20,44 @@
     <!-- SEO対策用、https://satoc-skd.github.io/fkg-dc/ 以外で使う場合は必ず変える事 -->
     <meta name="google-site-verification" content="8DNDX7M6NyGaGGWM9mcdQfzgOv8WXpQAk1toCbW4rkQ" />
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="followme.css">
 </head>
 <body>
-    <div>
-        <h1>花騎士線図</h1>
+    <div class="header">
+        <div class="header-title">
+            花騎士線図
+        </div>
         <!-- <input type="button" value="gest" id="IdBtnSave"> -->
+        <div class="header-list">
+            <ul class="follow-me">
+                <li><a href="#modal01" class="modalOpen">about</a></li>
+                <li><a href="https://twitter.com/satoc_skd"></a></li>
+            </ul>
+        </div>
     </div>
     <div id="cy"></div>
+
+    <!-- モーダルウィンドウ -->
+    <div class="modal" id="modal01">
+    
+        <!-- モーダルウィンドウが開いている時のオーバーレイ -->
+        <div class="overLay modalClose"></div>
+    
+        <!-- モーダルウィンドウの中身 -->
+        <div class="inner">
+            <p>花騎士の相関関係を表示します。</p>
+            <div>
+                <p>空白部のドラッグ or 空白部のスライド：スクロール</p>
+                <p>花騎士のドラッグ or 花騎士のスライド：花騎士を移動</p>
+                <p>ホイールアップ or ピンチアウト：拡大</p>
+                <p>ホイールダウン or ピンチイン：縮小</p>
+            </div>
+            <a href="" class="modalClose">Close</a>
+        </div>
+    
+    </div>
 
     <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/cytoscape/2.3.16/cytoscape.min.js"></script>
